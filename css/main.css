@@ -30,13 +30,14 @@ a {
     text-decoration: none;
 }
 
-/* top nav */
+/* Top Nav */
+
 li {
     list-style: none;
 }
 
 .nav-wrap {
-    background-color: var(--ltblue);
+    background-color: var(--blue);
     margin: none;
 }
 
@@ -68,7 +69,7 @@ li {
     font-family: var(--font-sans-serif);
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--blue);
+    color: var(--white);
 }
 
 .nav-links:hover {
@@ -81,7 +82,7 @@ li {
 .hero-wrap {
     overflow: hidden;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--ltblue);
     max-height: 475px;
     padding-top: 2rem;
     padding-bottom: 3rem;
@@ -102,14 +103,115 @@ li {
 
 .hero-content h1 {
     font-size: 3rem;
-    color: var(--white);
     text-align: center;
 }
 
 .hero-content p {
     font-size: 1.5rem;
     font-weight: 400;
-    color: var(--white);
     text-align: center;
     margin: 0rem 2rem;
 }
+
+/* Problem Statement */
+
+.prob-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 3rem 2rem;
+}
+
+.prob-wrap img {
+    height: auto;
+    max-height: 300px;
+}
+
+.prob-text {
+    margin: 3rem;
+    font-size: 1.25rem;
+    max-width: 700px;
+}
+
+.prob-text h2 {
+    font-size: 2.5rem;
+}
+
+/* Research */
+
+.research-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 3rem 3rem;
+    background-color: var(--ltblue);
+}
+
+.research-content img{
+    max-width: 300px;
+}
+
+/* Deliverables */
+
+.deliverables-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 3rem 3rem;
+}
+
+.deliverables-wrap h2 {
+    font-size: 2.5rem;
+}
+
+.deliverables-text {
+    max-width: 500px;
+    padding-top: 5rem;
+}
+.deliverables-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.deliverables-content img {
+    max-width: 300px;
+    margin: 1rem 0rem;
+}
+
+/* Summary */
+
+.summary-header {
+    overflow: hidden;
+    position: relative;
+    background-color: var(--ltblue);
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.summary-bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-height: auto;
+}
+
+.summary-content {
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.summary-content h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.summary-content p {
+    padding: 0rem 10rem;
+}
+
+/* Footer */
+
