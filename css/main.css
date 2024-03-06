@@ -1,10 +1,31 @@
+:root {
+    --font-sans-serif: Montserrat, sans-serif;
+    --font-serif: Lora, serif;
+    --black: #000;
+    --white: #eaeaea;
+    --blue: #252258;
+    --ltblue: #a9a3d0;
+    --purple: #a4248a;
+    --pink: #d8168c;
+    --green: #10703a;
+    --ltgreen: #78bc46;
+    --orange: #f29423;
+    --yellow: #f9cc3d;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    
-    background-color: rgb(196, 217, 255);
+    font-family: var(--font-serif);
+    color: var(--black);
+    background-color: var(--white);
     margin: 2rem;
 }
 
-h1 {
-    color: lightseagreen;
+h1, h2, h3 {
+    font-family: var(--font-sans-serif);
+    color: var(--blue);
 }
