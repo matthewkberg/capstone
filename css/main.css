@@ -16,18 +16,19 @@
 
 html {
     box-sizing: border-box;
-}
-
-body {
     font-family: var(--font-serif);
     color: var(--black);
     background-color: var(--white);
-    margin: 2rem;
+    margin: 0.5rem 2rem;
 }
 
 h1, h2, h3 {
     font-family: var(--font-sans-serif);
     color: var(--blue);
+}
+
+a {
+    text-decoration: none;
 }
 
 /* top nav */
@@ -39,7 +40,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: auto;
+    padding: 1rem;
 }
 
 .topnav img {
@@ -54,5 +55,17 @@ li {
 }
 
 .nav-items {
+    margin-left: 1.5rem;
 
+}
+
+.nav-links {
+    font-family: var(--font-sans-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.nav-links:hover {
+    color: var(--purple);
 }
