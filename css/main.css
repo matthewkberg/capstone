@@ -4,7 +4,7 @@
     --black: #000;
     --white: #eaeaea;
     --blue: #252258;
-    --ltblue: #a9a3d0;
+    --ltblue: #c3bde7;
     --purple: #a4248a;
     --pink: #d8168c;
     --green: #10703a;
@@ -33,6 +33,11 @@ a {
 /* top nav */
 li {
     list-style: none;
+}
+
+.nav-wrap {
+    background-color: var(--ltblue);
+    margin: none;
 }
 
 .topnav {
