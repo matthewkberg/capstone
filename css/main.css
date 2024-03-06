@@ -19,7 +19,6 @@ html {
     font-family: var(--font-serif);
     color: var(--black);
     background-color: var(--white);
-    margin: 0.5rem 2rem;
 }
 
 h1, h2, h3 {
@@ -41,6 +40,7 @@ li {
     justify-content: space-between;
     align-content: center;
     padding: 1rem;
+    margin: 0rem 1.5rem;
 }
 
 .topnav img {
@@ -68,4 +68,43 @@ li {
 
 .nav-links:hover {
     color: var(--purple);
+}
+
+
+/* Hero */
+
+.hero-wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: var(--blue);
+    max-height: 475px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hero-bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+    margin: 0rem 2rem;
 }
