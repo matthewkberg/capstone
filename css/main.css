@@ -29,3 +29,30 @@ h1, h2, h3 {
     font-family: var(--font-sans-serif);
     color: var(--blue);
 }
+
+/* top nav */
+li {
+    list-style: none;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: auto;
+}
+
+.topnav img {
+    max-height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-items {
+
+}
