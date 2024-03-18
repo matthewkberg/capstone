@@ -133,6 +133,7 @@ li {
 }
 
 .prob-wrap img {
+    height: auto;
     max-width: 25%;
 }
 
@@ -149,18 +150,22 @@ li {
 @media (max-width: 1150px) {
     .prob-wrap {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
     }
 
     .prob-wrap img {
-        max-width: 30%;
+        max-width: 40%;
         margin-bottom: 0;
         align-self: center;
     }
 
+    .prob-text h2 {
+        margin-top: 0;
+    }
+
     .prob-text {
-        margin: none;
+        margin: 0;
     }
     
 }
@@ -168,17 +173,18 @@ li {
 @media (max-width: 768px) {
     .prob-wrap {
         flex-direction: column;
-        justify-content: space-between;
+        column-gap: 1rem;
         align-items: center;
     }
 
     .prob-wrap img {
         max-width: 50%;
+        margin-bottom: 0;
 
     }
 
     .prob-text {
-        margin: none;
+        margin: 0;
     }
     
 }
@@ -220,6 +226,7 @@ li {
 }
 
 .deliverables-text {
+    font-size: 1.25rem;
     max-width: 500px;
     padding-top: 5rem;
 }
