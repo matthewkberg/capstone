@@ -114,6 +114,15 @@ li {
     margin: 0rem 2rem;
 }
 
+@media (max-width: 768px) {
+    .hero-bg {
+        width: auto;
+        height: 100%;
+
+    }
+    
+}
+
 /* Problem Statement */
 
 .prob-wrap {
@@ -124,8 +133,7 @@ li {
 }
 
 .prob-wrap img {
-    height: auto;
-    max-height: 300px;
+    max-width: 25%;
 }
 
 .prob-text {
@@ -136,6 +144,43 @@ li {
 
 .prob-text h2 {
     font-size: 2.5rem;
+}
+
+@media (max-width: 1150px) {
+    .prob-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .prob-wrap img {
+        max-width: 30%;
+        margin-bottom: 0;
+        align-self: center;
+    }
+
+    .prob-text {
+        margin: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .prob-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .prob-wrap img {
+        max-width: 50%;
+
+    }
+
+    .prob-text {
+        margin: none;
+    }
+    
 }
 
 /* Research */
@@ -151,6 +196,15 @@ li {
 .research-content img{
     max-width: 300px;
 }
+
+@media (max-width: 1150px) {
+    .research-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 
 /* Deliverables */
 
@@ -179,6 +233,18 @@ li {
 .deliverables-content img {
     max-width: 300px;
     margin: 1rem 0rem;
+}
+
+@media (max-width: 1150px) {
+    .deliverables-wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .deliverables-text {
+        padding-top: 0rem;
+    }
 }
 
 /* Summary */
@@ -213,6 +279,30 @@ li {
 
 .summary-content p {
     padding: 0rem 10rem;
+}
+
+@media (max-width: 1150px) {
+    .summary-content {
+        padding-top: none;
+    }
+
+    .summary-content p {
+        padding: 0rem, 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .summary-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 1rem;
+    }
+
+    .summary-content p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 0.5rem;
+    }
 }
 
 /* Footer */
