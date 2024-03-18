@@ -84,6 +84,7 @@ li {
     position: relative;
     background-color: var(--ltblue);
     max-height: 475px;
+    width: 100%;
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
@@ -118,7 +119,6 @@ li {
     .hero-bg {
         width: auto;
         height: 100%;
-
     }
     
 }
