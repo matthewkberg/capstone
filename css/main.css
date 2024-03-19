@@ -216,6 +216,7 @@ header {
     }
 
     .prob-wrap img {
+        height: auto;
         max-width: 40%;
         margin-bottom: 0;
         align-self: center;
@@ -239,6 +240,7 @@ header {
     }
 
     .prob-wrap img {
+        height: auto;
         max-width: 50%;
         margin-bottom: 0;
 
