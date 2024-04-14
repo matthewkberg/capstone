@@ -52,6 +52,7 @@ li {
     max-height: auto;
 }
 
+
 /* Top Nav */
 
 header {
@@ -78,7 +79,7 @@ header {
 }
 
 .topnav img {
-    max-height: 50px;
+    max-height: 40px;
 }
 
 .topnav .toggle_btn {
@@ -288,16 +289,41 @@ header {
 /* Research */
 
 .research-wrap {
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     align-content: center;
-    padding: 3rem 3rem;
+    padding: 3rem 1rem;
     background-color: var(--ltblue);
 }
 
-.research-content img{
+.research-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.research-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 1.25rem;
+    max-width: 1000px;
+}
+
+.research-wrap  h2 {
+    font-size: 2.5rem;
+}
+
+.headshot {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.headshot img {
     max-width: 300px;
 }
+
 
 @media (max-width: 992px) {
     .research-wrap {
@@ -307,21 +333,81 @@ header {
     }
 }
 
+/* Process */
+
+.process-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 0;
+}
+
+.process-h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 2.5rem;
+    max-width: 1000px;
+    margin-bottom: 0;
+}
+
+.process-wrap img{
+    margin: 2rem 6rem 0rem 0rem;
+    max-width: 300px;
+}
+
+
+.process-text h2 {
+    font-size: 2.5rem;
+}
+
+.process-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    width: 75%;
+    font-size: 1.25rem;
+    max-width: 1000px;
+}
+
+.scenes-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.scenes img {
+    margin: 1rem 2rem 1rem;
+    max-width: 300px;
+}
+
+.mockups img {
+    margin: 1rem 2rem 3rem;
+    max-width: 300px;
+
+}
+
+.video-center {
+    text-align: center;
+    margin-bottom: 4rem;
+}
 
 /* Deliverables */
 
-.deliverables-wrap {
+/* .deliverables-wrap {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     padding: 3rem 3rem;
-}
+} */
 
-.deliverables-wrap h2 {
+.deliverables h2 {
     font-size: 2.5rem;
+    text-align: center;
 }
 
-.deliverables-text {
+.deliverables p {
     font-size: 1.25rem;
     max-width: 500px;
     padding-top: 5rem;
@@ -381,6 +467,7 @@ header {
 }
 
 .summary-content p {
+    font-size: 1.25rem;
     padding: 0rem 10rem;
 }
 
@@ -443,17 +530,13 @@ header {
 }
 
 @media (max-width: 992px) {
-    .footer-nav {
-        gap: 2rem;
-        font-size: 2vh;
-
+    .footer-wrap .nav-menu {
+        display: none;
     }
 }
 
 @media (max-width: 576px) {
-    .footer-nav {
-        gap: 0.5rem;
-        font-size: 1.5vh;
-
+    .footer-wrap .nav-menu {
+        display: none;
     }
 }
