@@ -1,6 +1,7 @@
 :root {
-    --font-sans-serif: Montserrat, sans-serif;
-    --font-serif: Lora, serif;
+    --font-sans-serif: "fieldwork-hum", sans-serif;
+    --font-serif: "freight-display-pro", serif;
+    --font-nav: "ff-good-web-pro-condensed", sans-serif;
     --black: #000;
     --white: #eaeaea;
     --blue: #252258;
@@ -64,7 +65,6 @@ header {
 }
 
 .nav-wrap {
-
     background-color: var(--blue);
 }
 
@@ -96,7 +96,7 @@ header {
 }
 
 .nav-links {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-nav);
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--white);
@@ -228,18 +228,33 @@ header {
 }
 
 .prob-wrap img {
-    height: auto;
-    max-width: 25%;
+    max-height: 300px;
+    width: auto;
 }
 
 .prob-text {
     margin: 3rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     max-width: 700px;
 }
 
 .prob-text h2 {
     font-size: 2.5rem;
+}
+
+.solution-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 1rem 2rem;
+    background-color: var(--ltblue);
+}
+
+.solution-wrap img {
+    max-height: 200px;
+    width: auto;
+    padding-top: 6rem;
+    
 }
 
 @media (max-width: 992px) {
@@ -293,7 +308,6 @@ header {
     justify-content: space-evenly;
     align-content: center;
     padding: 3rem 1rem;
-    background-color: var(--ltblue);
 }
 
 .research-logo {
@@ -306,7 +320,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     max-width: 1000px;
 }
 
@@ -336,10 +350,8 @@ header {
 /* Process */
 
 .process-wrap {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    padding-bottom: 0;
+    padding: 2rem 0rem 2rem;
+    background-color: var(--ltblue);
 }
 
 .process-h2 {
@@ -367,7 +379,7 @@ header {
     padding-top: 0;
     padding-bottom: 2rem;
     width: 75%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     max-width: 1000px;
 }
 
@@ -391,7 +403,6 @@ header {
 
 .video-center {
     text-align: center;
-    margin-bottom: 4rem;
 }
 
 
@@ -419,12 +430,13 @@ header {
 
 /* Deliverables */
 
-/* .deliverables-wrap {
-    display: flex;
+.deliverables {
+    background-color: var(--ltblue);
+    padding: 2rem;
+    /* display: flex;
     justify-content: space-evenly;
-    align-content: center;
-    padding: 3rem 3rem;
-} */
+    align-content: center;*/
+}
 
 .deliverables h2 {
     font-size: 2.5rem;
@@ -491,7 +503,7 @@ header {
 }
 
 .summary-content p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 0rem 10rem;
 }
 
