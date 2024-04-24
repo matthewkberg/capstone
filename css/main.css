@@ -546,9 +546,6 @@ header {
 }
 
 @media (max-width: 576px) {
-    .process-wrap {
-        padding: 0rem;
-    }
 
     .process-photo img {
         width: 80%;
