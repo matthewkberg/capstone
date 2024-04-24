@@ -408,6 +408,13 @@ header {
         max-width: auto;
     }
 
+    .headshot-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
     .headshot img {
         max-width: 150px;
     }
