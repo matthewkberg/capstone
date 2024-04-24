@@ -404,7 +404,7 @@ header {
 
 @media (max-width: 576px) {
     .research-img {
-        max-height: 150px;
+        max-height: 125px;
         max-width: auto;
     }
 
